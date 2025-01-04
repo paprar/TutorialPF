@@ -47,6 +47,14 @@ git
 폴더 안에서 우클릭- open git bash here - git init으로 .git 생성 후 github desktop에서 add local repository - 해당 주소 추가
 보기-파일 확장명, 숨긴 항목 체크
 
+용량 초과 알림 뜰때 깃허브에서 gitignore 검색 - unityignore 찾아서 .gitignore로 해당 폴더에 저장하면 용량 초과 알림 안뜸.
+
+커밋 했을때 push origin도 하기 안하면 merge conflict 뜸.
+
+
+
+
+
 
 
 
