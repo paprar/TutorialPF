@@ -36,3 +36,4 @@ public GameObject CoinPrefab; 값을 설정할 수 있는 창 추가
 public float popPower = 2.5f; 
 
 
+ctrl k s 코드 감싸기
