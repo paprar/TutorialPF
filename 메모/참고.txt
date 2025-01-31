@@ -29,3 +29,8 @@ public class Example : MonoBehaviour
         Debug.Log(position); // 결과 출력
     }
 }
+
+
+
+
+gpt로는 코드로 설정하는 것 이외에 컴포넌트로 설정하는 문제를 해결하기 힘듬. 해당 기능을 하는 컴포넌트를 알고 있어야 함.
