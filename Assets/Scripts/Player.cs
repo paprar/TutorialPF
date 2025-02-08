@@ -7,10 +7,12 @@ public class Player : MonoBehaviour
     public float moveSpeed;
     public Transform playerStartPosition;
     private Rigidbody2D rigid;
+    ParticleSystem dust;
 
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
+        dust = GetComponentInChildren<ParticleSystem>();
     }
 
     // Start is called before the first frame update
@@ -58,6 +60,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space))
         {
+            CreateDust();
             rigid.velocity = new Vector2(rigid.velocity.x, 10);
         }
 
@@ -73,5 +76,10 @@ public class Player : MonoBehaviour
         // 입력
 
         //(x,y) 좌표 이동한다.
+    }
+
+    void CreateDust()
+    {
+        dust.Play();
     }
 }
